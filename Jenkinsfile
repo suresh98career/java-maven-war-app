@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('SCM Checkout'){
             steps{
-                checkout changelog: false, poll: false, scm: scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/suresh98career/java-maven-war-app.git']])
+                checkout changelog: false, poll: false, scm: scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/suresh98career/java-maven-war-app']])
             }
 
         }
