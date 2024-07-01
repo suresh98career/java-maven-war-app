@@ -7,6 +7,7 @@
 	<h1>Hello World!</h1>
 	<h1>DevOps Learning 2024</h1>
 	<h1>Deployed using ansible playbookfrom Jenkins </h1>
+        <h1> Job triggered using webhook</h1>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
