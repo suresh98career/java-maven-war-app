@@ -23,8 +23,8 @@ pipeline{
 
         // stage('Sonar Scan'){
         //     steps{
-        //         withSonarQubeEnv("SonarQube") {
-        //             sh "${tool("Sonar_4.8")}/bin/sonar-scanner \
+        //         withSonarQubeEnv("Sonarqube") {
+        //             sh "${tool("Sonar_scanner")}/bin/sonar-scanner \
                        -Dsonar.host.url=http://3.108.252.226:9000/ \
                        -Dsonar.login=sqp_c9af92394e414d95c131d5c44eb7a2f18c83c0a4 \
                        -Dsonar.java.binaries=target \
